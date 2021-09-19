@@ -241,7 +241,6 @@ a.navbar-brand {
     padding: 10px 15px;
     color: #fff;
     border-radius: 2px;
-    text-transform: uppercase;
     margin-top: 0;
   }
 }
@@ -305,7 +304,7 @@ a.navbar-brand {
   background: darken($primary, 5%);
 
   li a {
-    color: #EEE;
+    color: $black;
 
     &:hover {
       color: $secondary !important;
