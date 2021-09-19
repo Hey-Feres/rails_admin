@@ -493,11 +493,12 @@ td.carrierwave_type .img-thumbnail {
   box-shadow: none;
 }
 
+.fieldset dl dt {
+  background: $theme-color !important;
+}
+
 .fieldset {
   dl {
-    dt {
-      background: $theme-color !important;
-    }
     dt span.label-info {
       text-align: left;
       display: block;
