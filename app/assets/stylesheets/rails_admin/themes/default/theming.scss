@@ -110,25 +110,23 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .btn {
-  border-radius: 2px;
+  border-radius: 10px;
   color: #fff !important;
 }
 
 .btn-default {
-  color: $black !important;
+  color: $primary !important;
 }
 
 .btn-info {
   background: $primary;
-  border-color: darken($primary, 10%);
 
   &:active,
   &:focus,
   &:hover,
   &:target {
-    background: $secondary;
-    border-color: darken($secondary, 10%);
-    color: $primary;
+    background: darken($primary, 10%);
+    color: $theme-color;
   }
 }
 
@@ -138,21 +136,20 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .btn-primary {
-  background: $secondary;
-  border-color: $secondary;
+  background: $theme-color;
 
   &:active,
   &:focus,
   &:hover,
   &:target {
-    background: darken($secondary, 20%);
-    border-color: darken($secondary, 20%);
+    background: darken($theme-color, 20%);
+    border-color: darken($theme-color, 20%);
   }
 }
 
 .btn-primary.disabled {
-  background: lighten($secondary, 20%);
-  border-color: lighten($secondary, 20%);
+  background: lighten($theme-color, 20%);
+  border-color: lighten($theme-color, 20%);
 }
 
 .alert {
@@ -191,6 +188,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
     position: absolute;
     right: 15px;
     color: #fff;
+    background: $black;
     font-family: 'FontAwesome', sans-serif;
   }
 }
@@ -253,7 +251,9 @@ a.navbar-brand {
 }
 
 .form-control {
-  border-radius: 2px;
+  border-radius: 10px;
+  background: #F1F1F1;
+  border: none;
 }
 
 .nav-pills > li > a:focus,
