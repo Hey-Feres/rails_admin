@@ -500,16 +500,17 @@ td.carrierwave_type .img-thumbnail {
       display: block;
       padding: 10px;
       font-size: 13px;
-      background: $theme-color;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
+      background: $black;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
     }
 
     dd.well {
       padding: 10px;
       border-top: 0;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
+      background: #F9F9F9;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
   }
 }
