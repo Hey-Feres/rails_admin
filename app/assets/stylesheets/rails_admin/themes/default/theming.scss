@@ -144,13 +144,13 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
   &:focus,
   &:hover,
   &:target {
-    background: lighten($theme-color, 20%);
+    background: lighten($theme-color, 5%);
   }
 }
 
 .btn-primary.disabled {
-  background: lighten($theme-color, 20%);
-  border-color: lighten($theme-color, 20%);
+  background: lighten($theme-color, 10%);
+  border-color: lighten($theme-color, 10%);
 }
 
 .alert {
@@ -536,4 +536,8 @@ td.carrierwave_type .img-thumbnail {
 
 .modal-header-title {
   margin-top: 0;
+}
+
+.input-group-btn .open {
+  background: $theme-color !important;
 }
