@@ -493,10 +493,6 @@ td.carrierwave_type .img-thumbnail {
   box-shadow: none;
 }
 
-.fieldset dl dt {
-  background: $theme-color !important;
-}
-
 .fieldset {
   dl {
     dt span.label-info {
@@ -504,8 +500,9 @@ td.carrierwave_type .img-thumbnail {
       display: block;
       padding: 10px;
       font-size: 13px;
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
+      background: $theme-color;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
 
     dd.well {
