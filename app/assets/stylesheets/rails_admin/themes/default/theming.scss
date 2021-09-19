@@ -122,7 +122,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 
 .btn-info {
   background: $primary;
-  color: $theme-color;
+  color: $theme-color !important;;
 
   &:active,
   &:focus,
