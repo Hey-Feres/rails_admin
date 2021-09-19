@@ -112,21 +112,23 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 .btn {
   border-radius: 10px;
   color: #fff !important;
+  border: none;
 }
 
 .btn-default {
-  color: $primary !important;
+  background: $primary !important;
+  color: $theme-color !important;
 }
 
 .btn-info {
   background: $primary;
+  color: $theme-color;
 
   &:active,
   &:focus,
   &:hover,
   &:target {
     background: darken($primary, 10%);
-    color: $theme-color;
   }
 }
 
@@ -142,8 +144,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
   &:focus,
   &:hover,
   &:target {
-    background: darken($theme-color, 20%);
-    border-color: darken($theme-color, 20%);
+    background: lighten($theme-color, 20%);
   }
 }
 
@@ -252,7 +253,7 @@ a.navbar-brand {
 
 .form-control {
   border-radius: 10px;
-  background: #F1F1F1;
+  background: #F9F9F9;
   border: none;
 }
 
