@@ -499,16 +499,17 @@ td.carrierwave_type .img-thumbnail {
       text-align: left;
       display: block;
       padding: 10px;
+      border: none;
       font-size: 13px;
       color: $theme-color;
-      background: white;
+      background: #F9F9F9;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
     }
 
     dd.well {
       padding: 10px;
-      border-top: 0;
+      border: none;
       background: #F9F9F9;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
