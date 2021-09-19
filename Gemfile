@@ -5,7 +5,6 @@ gem 'rails'
 gem 'haml'
 gem 'devise'
 gem 'webrick', '~> 1.7'
-gem 'image_processing', '~> 1.2'
 
 group :active_record do
   gem 'paper_trail'
