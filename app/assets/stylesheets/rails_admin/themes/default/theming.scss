@@ -183,6 +183,11 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
   border: 0;
 }
 
+.dropdown-header {
+  color: #fff;
+  background: $black;  
+}
+
 .dropdown-header.open {
   &::after {
     content: "\f13a" !important;
@@ -540,4 +545,5 @@ td.carrierwave_type .img-thumbnail {
 
 span.input-group-btn.open .btn-info {
   background: $theme-color !important;
+  color: white !important;
 }
